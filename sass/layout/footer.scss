@@ -1,0 +1,40 @@
+.footer {
+    background-color: $color-black;
+    height: 200px;
+    position: relative;
+    color: $color-secondary-light;
+    
+    
+    &__icons {
+        font-size: 2rem;
+        
+        padding: 1.5rem;
+        display: inline;
+
+        &--social {
+            font-size: 4rem;
+            
+        }
+        
+    }
+
+    &__element {
+        float: left;
+        padding: 1rem;
+        
+
+        &__right {
+            float: right;
+            padding: 1rem;
+            
+            margin-right: 4rem;
+        }
+    }
+    
+    &__contact {
+        width: 100%;
+        
+    }
+
+    
+}

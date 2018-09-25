@@ -1,0 +1,39 @@
+.icons {
+        font-size: 6rem;
+        margin-bottom: .5rem;
+        display: inline-block;
+        color: $color-secondary-light;
+
+    &__pink {
+        font-size: 6rem;
+        margin-bottom: .5rem;
+        display: inline-block;
+        color: $color-primary-light;
+    }
+
+    &__white {
+        font-size: 6rem;
+        margin-bottom: .5rem;
+        display: inline-block;
+        color: $color-white;
+    }
+
+    &__desc {
+        color: $color-white;
+        font-size: 2rem;
+    }
+        
+
+    &__linkedin {
+        font-size: 2.5rem;
+        margin-bottom: .5rem;
+        border: none;
+
+        &:hover {
+           color: #0e76a8; 
+        }
+        
+        
+
+    }
+}

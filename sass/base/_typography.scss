@@ -1,0 +1,189 @@
+
+.heading__primary {
+    font-size: 25rem;
+    font-family: "BebasNeue";
+    &--main {
+        font-size: 18rem;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+        text-decoration: uppercase;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-shadow: 1px 3px #222;
+        opacity: .5;
+
+        @media (max-width: 500px) {
+
+            font-size: 5rem;
+            letter-spacing: 1.5rem;
+            font-weight: 400;
+            
+             
+             }
+ 
+             @media (max-width: 800px) and (min-width: 500px) {
+ 
+                 font-size: 6.5rem;
+                 letter-spacing: 5rem;
+                 font-weight: 600;
+                 
+                 
+                 }
+
+        &-1 {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: $color-primary-light;
+            letter-spacing: .1rem;
+            line-height: 1.2;
+        }
+      
+    }
+}
+
+.heading__secondary {
+    font-size: 4rem;
+    font-weight: .875rem;
+    letter-spacing: .1rem;
+    color: $color-secondary-light;
+    opacity: .7;
+    text-transform: uppercase;
+    line-height: 1.8;
+
+    &--dark {
+        background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);
+        -webkit-background-clip: text;
+        text-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+        color: transparent;
+        letter-spacing: .2rem;
+        font-size: 4rem;
+        font-weight: .875rem;
+        opacity: .7;
+        text-transform: uppercase;
+        line-height: 1.8;
+    }
+
+}
+
+.heading__tertiary {
+    font-size: 4rem;
+    font-weight: .875rem;
+    letter-spacing: .1rem;
+    color: #f5fac7;
+    opacity: .7;
+    text-transform: uppercase;
+    line-height: 1.8;
+}
+
+
+
+.quotes {
+    font-size: 3rem;
+    color: #000;
+    text-shadow: 1px 1px #7d7d7d;
+    opacity: .9;
+
+    &--pink {
+        font-size: 4rem;
+        color: $color-primary-light;
+        text-shadow: 1px 1px #7d7d7d;
+        font-weight: 600;
+        
+    }
+}
+
+.paragraph {
+    font-size: 1.5rem;
+
+    &__big {
+        font-size: 1.5rem;
+        font-weight: 100;
+        letter-spacing: .3rem;
+    }
+    &__medium {
+        font-weight: 100;
+        letter-spacing: .3rem;
+        padding: 1rem;
+        line-height: 3rem;
+        font-size: 2rem;
+        }
+
+    &__small {
+        font-weight: 100;
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        letter-spacing: .15rem;
+        text-align: initial;
+
+        @media (max-width: 1250px) and (min-width: 1140px) {
+
+            font-size: 1.2rem;
+                    
+                }
+        @media (max-width: 1139px) and (min-width: 991px) {
+
+            font-size: 1rem;
+                            
+                }
+    }
+
+}
+
+
+
+
+.underline-text-bold {
+    background-image: linear-gradient(to bottom, $color-secondary-light 0, $color-secondary-light 100%);
+    background-position: -3px 85%;
+    background-repeat: no-repeat;
+    background-size: 100% 10px;
+
+    &__pink {
+        background-image: linear-gradient(to bottom, $color-secondary-light 0, $color-secondary-light 100%);  
+    }
+
+    &:hover {
+        background-size: 100%;
+    }
+
+   
+
+}
+
+
+.line {
+    border-top: 8px solid $color-secondary-light;
+    display: block;
+    position: relative;
+    top: 1px;
+    width: 100%;
+    top: 20%;
+}
+
+h2 {
+    margin: 1em 0 0;
+    font-family: "BebasNeue";
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+    font-size: 14rem;
+    
+}
+
+
+@font-face {
+    font-family: BebasNeue;
+    src: url('../../fonts/BebasNeue-Regular.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.white {
+    color: white;
+}

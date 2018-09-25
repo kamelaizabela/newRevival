@@ -1,0 +1,86 @@
+!-- book -->
+<div class="container section-book u-margin-bottom-big u-margin-top-big">
+
+
+
+    <div class="book" id="book">
+        <div class="book__form">
+            <form action="#" class="form">
+                <div class="u-margin-bottom-medium">
+                    <h2 class="heading__secondary--dark">
+                        Start booking now
+                    </h2>
+                </div>
+
+                <div class="form__group">
+                    <input type="text" class="form__input" placeholder="Full name" id="name" required>
+                    <label for="name" class="form__label">Full name</label>
+                </div>
+
+                <div class="form__group">
+                    <input type="email" class="form__input" placeholder="Email address" id="email" required>
+                    <label for="email" class="form__label">Email address</label>
+                </div>
+
+                <div class="form__date u-margin-bottom-medium">
+
+                    <label for="start">Start</label>
+                    <input type="date" class="input-date" id="start" name="trip" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
+
+
+
+
+
+                    <label for="end">End</label>
+                    <input type="date" class="input-date" id="end" name="trip" value="2018-07-29" min="2018-01-01" max="2018-12-31" />
+
+                </div>
+
+
+
+
+                <div class="form__group u-margin-bottom-medium">
+
+
+
+                    <div class="form__radio-group">
+                        <input type="radio" class="form__radio-input" id="double" name="size">
+                        <label for="double" class="form__radio-label">
+                            <span class="form__radio-button"></span>
+                            Double room
+                        </label>
+                    </div>
+
+
+
+                    <div class="form__radio-group">
+                        <input type="radio" class="form__radio-input" id="apartment" name="size">
+                        <label for="apartment" class="form__radio-label">
+                            <span class="form__radio-button"></span>
+                            Apartment
+                        </label>
+                    </div>
+
+
+
+                    <div class="form__radio-group">
+                        <input type="radio" class="form__radio-input" id="spa" name="size">
+                        <label for="spa" class="form__radio-label">
+                            <span class="form__radio-button"></span>
+                            SPA Day
+                        </label>
+                    </div>
+
+
+
+                </div>
+
+                <div class="form__group">
+                    <button class="btn btn--green">Next step &rarr;</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+

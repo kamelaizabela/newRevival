@@ -1,0 +1,127 @@
+// our mission
+.ourmission {
+    
+    padding-bottom: 0 !important;
+        
+    &__left
+    {
+        background: rgba(255, 255, 255, 0.5);
+            filter: alpha(opacity=50);       
+    }
+
+    &__right {
+        background: rgba(255, 255, 255, 0.5);
+            filter: alpha(opacity=50);
+    }
+    &__photo {
+        background-image: url(../img/book2.jpg);
+        background-size: cover;
+        background-position: top;
+    }
+ }
+
+.quotes__box {
+    background-color: $color-black;
+}
+.gallery {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.about {
+    background: rgba(255, 255, 255, 0.5);
+    filter: alpha(opacity=50);
+    height: 10rem;
+}
+
+.offer {
+    background: rgba(255, 255, 255, 0.5);
+    filter: alpha(opacity=50);
+}
+
+//contact 
+
+
+.contact {
+    position: relative;
+    z-index: 1;
+
+    &__left {
+        background-image: url(../img/g1.jpg);
+        background-size: cover;
+        background-position: top;
+
+    }
+    
+
+    &__right {
+        height: 50vh;
+        top: 30%;
+        background-color: $color-secondary-dark;     
+    }
+}
+
+.section-book {
+    background-color: #fff;
+    
+}
+
+.book {
+    background-image: linear-gradient(105deg, rgba($color-white, .9) 0%, rgba($color-white, .9) 50%, transparent 50%), url(../img/book2.jpg);
+    background-size: cover;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
+
+    @media (max-width: 1000px) {
+ 
+        background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(255, 255, 255, .9)), url(../img/book2.jpg);
+        
+        
+        }
+    
+    
+    &__form {
+        width: 50%;
+        padding: 6rem;
+
+        @media (max-width: 1000px) {
+ 
+            width: 100%;
+            
+            }
+    }
+}
+
+
+
+  
+/* Modal Content/Box */
+
+.modal-dialog {
+    top: 30vh;   
+    padding: 2rem;
+}
+
+.modal-header h1 {
+    font-size: 3.5rem;
+}
+  
+  .modal-content input {
+      width: 100% !important;
+      padding: 1.5rem;
+  }
+
+ 
+  .modal__button {
+      width: 80%;
+      padding: 1rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      background-color: $color-secondary-light;
+      font-size: 1.8rem;
+  }
+
+
+
+

@@ -1,0 +1,35 @@
+.gallery {
+    
+     
+
+    &__left {
+        background: rgba(255, 255, 255, 0.5);
+    filter: alpha(opacity=50);
+        
+        
+    }
+
+    &__right {
+        background: rgba(255, 255, 255, 0.5);
+        filter: alpha(opacity=50);
+       
+        
+    }
+
+    &__main {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        width: 100%;
+        
+    }
+
+
+}
+
+.carousel-item {
+    height: 50vh;
+}
+.carouselExampleControls {
+    padding: 0;
+    margin: 0;
+}

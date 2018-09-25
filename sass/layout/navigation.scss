@@ -1,0 +1,49 @@
+.navigation {
+    &__bar {
+        background: rgba($color-black, .8);
+        position: fixed !important;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        width: 100%; 
+    }
+    &__item {
+        color: $color-secondary-light;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        letter-spacing: .3rem;
+        padding: .5rem;
+        margin-right: 1rem;
+        &:hover {
+            color: $color-white;
+            text-shadow: 1.5px 2px 8px rgba($color-white, 0.9);
+        }
+    }
+    &__button {
+        color: $color-secondary-light !important;
+        border-color: $color-secondary-light !important;
+        width: 12rem;
+        font-size: 1.3rem;
+        letter-spacing: .2rem;
+        transition: all .2s;
+        &:hover {
+            background-color: $color-secondary-light !important;
+            color: $color-white !important;
+            border: none;
+            transform: translateY(-1.5px);
+            box-shadow: 0 1rem 2rem rgba($color-black, .2);
+        }
+    }
+}
+
+
+
+
+.navbar-toggler-icon {
+    color: $color-white;
+    font-size: 1.8rem;
+}
+
+
+
+
